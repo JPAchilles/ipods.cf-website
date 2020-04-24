@@ -88,7 +88,7 @@ div.transbox {
   margin: 30px;
   background-color: #4b4b4b;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 div.transbox p {
   z-index: 4;
@@ -108,7 +108,7 @@ div.transbox p {
   background: #EEEEEE;
   color: #121212;
   text-align: center;
-  font-size: calc(7px + 1vmin);
+  font-size: 12px;
   margin-left: center;
   margin-right: center;
 }
