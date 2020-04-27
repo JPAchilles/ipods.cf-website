@@ -1,0 +1,8 @@
+.body {
+    background-image:url("image/background_mod.jpg");
+    background-attachment:scroll, local;
+    background-position:center;
+    background-size:cover;
+    background-repeat: repeat-y;
+}
+}

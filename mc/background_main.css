@@ -1,0 +1,9 @@
+.body {
+    background-image:url("image/background_main.jpg");
+    background-attachment:scroll, local;
+    background-position:center top;
+    background-size:cover;
+    background-repeat: repeat-y;
+    background-blend-mode: normal;
+    background-color: #ffffff;
+}

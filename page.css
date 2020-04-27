@@ -53,6 +53,7 @@ body {
   background-attachment:scroll, local;
   background-position:center;
   background-size:cover;
+  background-repeat: repeat-y;
   background-color: #008cff;
   max-width:1400px;
   margin:auto;

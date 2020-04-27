@@ -49,10 +49,6 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   padding:10px;
   padding-bottom:60px;
-  background-attachment:scroll, local;
-  background-position:center;
-  background-size:cover;
-  background-color: #008cff;
   max-width:1400px;
   margin:auto;
   color:white;
