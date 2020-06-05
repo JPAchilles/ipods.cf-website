@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+
+body {
+  color: #fff;
+  background-color: rgb(94, 94, 94);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.parent {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+}
+
+.yes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.overlay {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background: url(ipod.png);
+  background-repeat: repeat;
+  -webkit-animation: 180s rotate-left infinite linear;
+  -moz-animation: 180s rotate-left infinite linear;
+  -o-animation: 180s rotate-left infinite linear;
+  -ms-animation: 180s rotate-left infinite linear;
+  animation: 180s rotate-left infinite linear;
+  width: 1000%;
+  height: 1000%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@-moz-keyframes rotate-left {
+  0% {
+    -moz-transform: rotate(0deg) translate(-50%, -50%);
+    -moz-transform-origin: top left;
+  }
+
+  100% {
+    -moz-transform: rotate(-360deg) translate(-50%, -50%);
+    -moz-transform-origin: top left;
+  }
+}
+
+@-webkit-keyframes rotate-left {
+  0% {
+    -webkit-transform: rotate(0deg) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+  }
+
+  100% {
+    -webkit-transform: rotate(-360deg) translate(-50%, -50%);
+    -webkit-transform-origin: top left;
+  }
+}
+
+@keyframes rotate-left{
+  0%{ transform:rotate(0deg) translate(-50%, -50%); transform-origin: top left; }
+  100%{ transform:rotate(-360deg) translate(-50%, -50%); transform-origin: top left; }
+}
